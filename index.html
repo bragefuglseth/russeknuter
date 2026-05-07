@@ -55,6 +55,7 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      margin-top: 1rem;
     }
     #list > :not(:last-child) {
       border-bottom: 2px solid #880000;
@@ -99,6 +100,7 @@
 
 <img src="./logo.svg" alt="russeknuter" id="logo">
 <button id="loginBtn">Logg inn med Google</button>
+<button id="logoutBtn" style="display:none;">Logg ut</button>
 <h2>Retningslinjer</h2>
 <ul>
   <li>Alle sexknuter kan bare gjennomføres dersom alle parter har gitt bevisst samtykke og det gjøres på en sikker måte. Vi oppfordrer til at disse knutene blir gjennomført med en fast sexpartner/kjæreste.</li>
@@ -107,7 +109,7 @@
   <li>Merket til gjennomførte knuter må anskaffes og knytes til luen selv.</li>
   <li>Alle knutene er 100% frivillige og gjøres på eget ansvar. Knutene er til for å ha det gøy, ikke presse noen til noe de ikke ønsker.</li>
 </ul>
-<button id="logoutBtn" style="display:none;">Logg ut</button>
+
 <div id="list"></div>
 
 <script type="module">
